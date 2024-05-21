@@ -1,15 +1,17 @@
-
+/* ==============common css part start=============== */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* ==============common css part end=============== */
 body{
     min-height: 100vh;
-    background: url(../images/st.gif);
+    background: url(../img/st.gif);
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* ======================sun start*/
 .sun{
     width: 100px;
     height: 100px;
@@ -21,6 +23,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* ======================sun end*/
+/* ======================mercury start*/
 .mercuryOrbit{
     width: 150px;
     height: 150px;
@@ -44,6 +48,8 @@ body{
         transform: rotate(360deg) translateX(75px) rotate(-3600deg);
     }
 }
+/* ======================mercury end*/
+/* ======================orbit */
 .mercuryOrbit, .venusOrbit, .earthOrbit, .marsOrbit, .jupiterOrbit, .saturnOrbit, .uranusOrbit, .naptuneOrbit{
     border: 2px dotted #dd9;
     position: absolute;
@@ -53,6 +59,7 @@ body{
     border-radius: 50%;
     background: transparent;
 }
+/* ======================venus start*/
 .venusOrbit{
     width: 210px;
     height: 210px;
@@ -76,6 +83,8 @@ body{
         transform: rotate(360deg) translateX(105px) rotate(-360deg);
     }
 }
+/* ======================venus end*/
+/* ======================earth start*/
 .earthOrbit{
     width: 300px;
     height: 300px;
@@ -83,7 +92,7 @@ body{
 .earth{
     width: 40px;
     height: 40px;
-    background: url(../images/earth\ \(1\).png);
+    background: url(../img/earth\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,6 +110,8 @@ body{
         transform: rotate(360deg) translateX(150px) rotate(-360deg);
     }
 }
+/* ======================earth end*/
+/* ======================mars start*/
 .marsOrbit{
     width: 400px;
     height: 400px;
@@ -124,6 +135,8 @@ body{
         transform: rotate(360deg) translateX(200px) rotate(-360deg);
     }
 }
+/* ======================mars end*/
+/* ======================jupiter start*/
 .jupiterOrbit{
     width: 500px;
     height: 500px;
@@ -147,6 +160,8 @@ body{
         transform: rotate(360deg) translateX(250px) rotate(-360deg);
     }
 }
+/* ======================jupiter end*/
+/* ======================msaturn start*/
 .saturnOrbit{
     width: 630px;
     height: 630px;
@@ -180,6 +195,8 @@ body{
     left: -10%;
     background: transparent;
 }
+/* ======================saturn end*/
+/* ======================uranus start*/
 .uranusOrbit{
     width: 750px;
     height: 750px;
@@ -203,6 +220,8 @@ body{
         transform: rotate(360deg) translateX(375px) rotate(-360deg);
     }
 }
+/* ======================uranus end*/
+/* ======================naptune start*/
 .naptuneOrbit{
     width: 850px;
     height: 850px;
@@ -226,3 +245,4 @@ body{
         transform: rotate(360deg) translateX(421px) rotate(-360deg);
     }
 }
+/* ======================naptune end*/
